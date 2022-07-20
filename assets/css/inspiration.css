@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+/* Farben: #2e2e2e / #867772 / #eaccc2 / #ebccc2 / #fff / rgb(115, 115, 115) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2e2e2e;
+    font-family: 'Work Sans';
+    margin: 0 50px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 30px;
+    color:#eaccc2;
+}
+
+h3{ 
+    font-weight: 300;
+    color:#eaccc2;
+    
+}
+
+h4{
+    font-weight: 300;
+    color:#eaccc2;
+    line-height: 30px;
+}
+
+p{
+    color: #867772;
+    font-size: 14px;
+}
+
+header{
+    position: sticky;
+    top: 50px;
+    color: #867772;
+}
+
+.sectionHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px ;
+}
+
+.artHeader{
+    display: flex;
+    gap: 50px;
+}
+
+.socialDiv a{
+    text-decoration: none;
+    color: #867772;
+}
+/*---------------------------Main--------------------------*/
+main{
+    display: flex;
+}
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 100px;
+}
+
+video{
+    width: 70%;
+    align-self: center;
+    margin-bottom: 5vh;
+}
+
+.imageAndText{
+    display: flex;
+    margin: 0 10vw;
+}
+.imageAndText > img{
+    width: 50%;
+}
+
+.headerDivAndPTag{
+    margin: 10vh 10vw;
+}
+.headerAndPTag{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerAndPTag > h2{
+    margin-bottom: 2vh;
+}
+
+.headerAndPTag p{
+    text-align:start;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.etc_5{  
+    flex-direction: row-reverse;
+}
+
+.button{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 2px 5px;
+    border: 1px solid #eaccc2;
+}

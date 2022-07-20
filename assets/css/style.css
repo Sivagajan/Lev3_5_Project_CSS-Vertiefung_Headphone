@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+/* Farben: #2e2e2e / #867772 / #eaccc2 / #ebccc2 / #fff / rgb(115, 115, 115) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2e2e2e;
+    font-family: 'Work Sans';
+    margin: 0 50px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 40px;
+    color:#eaccc2;
+}
+
+p{
+    color: #867772;
+    font-size: 14px;
+}
+
+header{
+    position: sticky;
+    top: 50px;
+    color: #867772;
+}
+
+.sectionHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px ;
+}
+
+.artHeader{
+    display: flex;
+    gap: 50px;
+}
+
+.socialDiv a{
+    text-decoration: none;
+    color: #867772;
+}
+/*---------------------------Main--------------------------*/
+main{
+    display: flex;
+}
+
+.about > h2{
+    margin: auto;
+    width: 35%;
+    word-wrap: break-word;
+    margin-bottom: 20vh;
+}
+
+.about > img{
+    width: 100%;
+}
+
+.imageAndText{
+    margin:10%;
+    display: flex;
+}
+.imageAndText > img{
+    width: 50%;
+}
+
+.headingAndPTag{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headingAndPTag > h2{
+    margin-bottom: 2vh;
+}
+
+.headingAndPTag p{
+    text-align:start;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
